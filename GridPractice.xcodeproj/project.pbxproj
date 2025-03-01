@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF27FAF72D731294005FCCE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF27FAF12D731294005FCCE4 /* Preview Assets.xcassets */; };
+		EF27FAF82D731294005FCCE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF27FAF32D731294005FCCE4 /* Assets.xcassets */; };
+		EF27FAF92D731294005FCCE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27FAF42D731294005FCCE4 /* ContentView.swift */; };
+		EF27FAFA2D731294005FCCE4 /* GridPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF27FAF52D731294005FCCE4 /* GridPracticeApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EF27FAE02D731285005FCCE4 /* GridPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF27FAF12D731294005FCCE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF27FAF32D731294005FCCE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF27FAF42D731294005FCCE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF27FAF52D731294005FCCE4 /* GridPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPracticeApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EF27FAE22D731285005FCCE4 /* GridPractice */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GridPractice;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF27FADD2D731285005FCCE4 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		EF27FAD72D731285005FCCE4 = {
 			isa = PBXGroup;
 			children = (
-				EF27FAE22D731285005FCCE4 /* GridPractice */,
+				EF27FAF62D731294005FCCE4 /* GridPractice */,
 				EF27FAE12D731285005FCCE4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,25 @@
 				EF27FAE02D731285005FCCE4 /* GridPractice.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EF27FAF22D731294005FCCE4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF27FAF12D731294005FCCE4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF27FAF62D731294005FCCE4 /* GridPractice */ = {
+			isa = PBXGroup;
+			children = (
+				EF27FAF42D731294005FCCE4 /* ContentView.swift */,
+				EF27FAF52D731294005FCCE4 /* GridPracticeApp.swift */,
+				EF27FAF32D731294005FCCE4 /* Assets.xcassets */,
+				EF27FAF22D731294005FCCE4 /* Preview Content */,
+			);
+			path = GridPractice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +81,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EF27FAE22D731285005FCCE4 /* GridPractice */,
 			);
 			name = GridPractice;
 			packageProductDependencies = (
@@ -109,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF27FAF72D731294005FCCE4 /* Preview Assets.xcassets in Resources */,
+				EF27FAF82D731294005FCCE4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF27FAF92D731294005FCCE4 /* ContentView.swift in Sources */,
+				EF27FAFA2D731294005FCCE4 /* GridPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
